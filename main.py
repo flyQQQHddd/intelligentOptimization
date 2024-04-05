@@ -1,12 +1,12 @@
 from multiprocessing import Pool
 import pandas as pd
-from utils import *
-from TSP_GA import *
+from GA.utils import *
+from GA.TSP_GA import *
 
 
 if __name__ == "__main__":
 
-    points = pd.read_csv('./GA/dataset/dataset30.csv', index_col=0)
+    points = pd.read_csv('./dataset/dataset30.csv', index_col=0)
 
 
     # --------------------------
